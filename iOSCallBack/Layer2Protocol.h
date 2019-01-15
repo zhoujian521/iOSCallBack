@@ -24,7 +24,7 @@ typedef NSString * (^SignTestMsgCallBack)(NSString *);
 
 - (NSString *)signPersonMsg:(NSString *)msg callback:(SignPersonMsgCallBack)callback;
 
-- (NSString *)signTestMsg:(NSString *)msg callback:(SignTestMsgCallBack )callback;
+- (NSString *)signTestMsg:(NSString *)msg callback:(SignTestMsgCallBack)callback;
 
 
 @end
