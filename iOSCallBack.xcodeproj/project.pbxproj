@@ -15,6 +15,7 @@
 		239392BF21EDC5DA00134409 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 239392BE21EDC5DA00134409 /* main.m */; };
 		239392C921EDC5DA00134409 /* iOSCallBackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 239392C821EDC5DA00134409 /* iOSCallBackTests.m */; };
 		239392D421EDC5DA00134409 /* iOSCallBackUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 239392D321EDC5DA00134409 /* iOSCallBackUITests.m */; };
+		239392E621EDC7C400134409 /* SecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 239392E521EDC7C400134409 /* SecViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		239392CF21EDC5DA00134409 /* iOSCallBackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSCallBackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		239392D321EDC5DA00134409 /* iOSCallBackUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSCallBackUITests.m; sourceTree = "<group>"; };
 		239392D521EDC5DA00134409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		239392E421EDC7C400134409 /* SecViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecViewController.h; sourceTree = "<group>"; };
+		239392E521EDC7C400134409 /* SecViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecViewController.m; sourceTree = "<group>"; };
+		239392E721EDD19E00134409 /* Layer2Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Layer2Protocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +105,13 @@
 		239392AE21EDC5D900134409 /* iOSCallBack */ = {
 			isa = PBXGroup;
 			children = (
+				239392E721EDD19E00134409 /* Layer2Protocol.h */,
 				239392AF21EDC5D900134409 /* AppDelegate.h */,
 				239392B021EDC5D900134409 /* AppDelegate.m */,
 				239392B221EDC5D900134409 /* ViewController.h */,
 				239392B321EDC5D900134409 /* ViewController.m */,
+				239392E421EDC7C400134409 /* SecViewController.h */,
+				239392E521EDC7C400134409 /* SecViewController.m */,
 				239392B521EDC5D900134409 /* Main.storyboard */,
 				239392B821EDC5DA00134409 /* Assets.xcassets */,
 				239392BA21EDC5DA00134409 /* LaunchScreen.storyboard */,
@@ -262,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				239392E621EDC7C400134409 /* SecViewController.m in Sources */,
 				239392B421EDC5D900134409 /* ViewController.m in Sources */,
 				239392BF21EDC5DA00134409 /* main.m in Sources */,
 				239392B121EDC5D900134409 /* AppDelegate.m in Sources */,
